@@ -51,13 +51,15 @@ public class FindJobProxy implements ZsxInvocationhandler {
       throws Throwable {
     // TODO Auto-generated method stub
     befor();
-    arg1.invoke(target, arg2);
+    
+    arg1.invoke(target, arg2 );
     after();
     return null;
   }
 
   private void befor() {
     System.out.println("我这里是发布职位总代理商！");
+    
   }
 
   private void after() {

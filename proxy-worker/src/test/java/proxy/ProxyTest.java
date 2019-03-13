@@ -14,7 +14,7 @@ public class ProxyTest {
   /**
    * @param args
    */
-  public static void main(String[] args) {
+  public static  void main(String[] args) {
     // TODO Auto-generated method stub
 
     FindJobProxy proxy = new FindJobProxy();
@@ -25,9 +25,8 @@ public class ProxyTest {
     for (Method m : methods) {
       String retype = m.getName();
       System.out.println(job.getClass().getName());
-
       try {
-
+       
       }
       catch (Throwable e) {
         // TODO: handle exception
